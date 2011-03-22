@@ -50,8 +50,8 @@ public class TestRobot extends IterativeRobot {
         robot.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, false);
         robot.setInvertedMotor(RobotDrive.MotorType.kRearLeft, false);
 
-        robot.setInvertedMotor(RobotDrive.MotorType.kFrontRight, false);
-        robot.setInvertedMotor(RobotDrive.MotorType.kRearRight, false);
+        robot.setInvertedMotor(RobotDrive.MotorType.kFrontRight, true);
+        robot.setInvertedMotor(RobotDrive.MotorType.kRearRight, true);
     }
 
     /**
