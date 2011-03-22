@@ -21,7 +21,7 @@ import edu.wpi.first.wpilibj.RobotDrive;
  * directory.
  */
 public class TestRobot extends IterativeRobot {
-    private Joystick jsLeft = new Joystick(3);
+    private Joystick jsLeft = new Joystick(3); // Testing
     private Joystick jsRight = new Joystick(4);
 
     private Jaguar jagleft1 = new Jaguar(1);
