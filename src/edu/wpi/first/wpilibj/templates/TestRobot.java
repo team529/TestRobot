@@ -67,8 +67,8 @@ public class TestRobot extends IterativeRobot {
     public void teleopPeriodic() {
         robot.arcadeDrive(jsLeft, true);
         
-        jagarm1.set(jsRight.getY() * Math.abs(jsRight.getY()) * 0.5);
-        jagarm2.set(jsRight.getY() * Math.abs(jsRight.getY()) * 0.5);
+        jagarm1.set(jsRight.getY() * Math.abs(jsRight.getY()) * 0.6);
+        jagarm2.set(jsRight.getY() * Math.abs(jsRight.getY()) * 0.6);
     }
     
 }
