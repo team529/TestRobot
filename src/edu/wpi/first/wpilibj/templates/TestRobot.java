@@ -21,9 +21,10 @@ import edu.wpi.first.wpilibj.RobotDrive;
  * directory.
  */
 public class TestRobot extends IterativeRobot {
-    private Joystick jsLeft = new Joystick(3); // Testing
-    private Joystick jsRight = new Joystick(4);
 
+    private Joystick jsLeft = new Joystick(2);
+    private Joystick jsRight = new Joystick (1);
+    
     private Jaguar jagleft1 = new Jaguar(1);
     private Jaguar jagleft2 = new Jaguar(2);
     private Jaguar jagright1 = new Jaguar (3);
@@ -58,7 +59,7 @@ public class TestRobot extends IterativeRobot {
      * This function is called periodically during autonomous
      */
     public void autonomousPeriodic() {
-
+        //
     }
 
     /**
